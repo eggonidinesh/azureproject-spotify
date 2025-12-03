@@ -1,0 +1,17 @@
+{
+	"name": "Azure_sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "azureprojectsereverdin.database.windows.net",
+			"database": "azureprojectdbdin",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "admindin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDEzNTU2QkYyLUMwRDMtNDEzMC1BREMwLTk0MDYwMEMyNDM3NV9mYTZjYTI1YS1jODlmLTQwYTAtODdkYS1iMjYxOWI0ZGUzOWYiDQp9"
+		}
+	}
+}
